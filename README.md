@@ -1,12 +1,24 @@
-# React + Vite
+# 🩸 Blood Bridge - Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Blood Bridge is a MERN stack blood donation platform that connects donors, volunteers, and recipients to make blood donation easier, faster, and more accessible.  
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+🔗 [Blood Bridge Live Site](https://your-live-link-here.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🔐 Firebase Authentication (Email/Google Login)
+- 👥 Role-based dashboards (Admin, Donor, Volunteer)
+- 📌 Donation request management with status updates
+- 📊 Donation statistics visualization
+- 📰 Blog/content management system
+- 💳 Stripe payment integration for funding
+- 📱 Fully responsive & user-friendly UI
+- 🎨 Built with TailwindCSS + DaisyUI + Framer Motion animations
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **Frontend:** React, React Router, TailwindCSS, DaisyUI, Framer Motion, Axios, TanStack Query
+- **Backend:** Node.js, Express.js, MongoDB (Native Driver), Firebase Admin SDK
+- **Payments:** Stripe
+- **Auth:** Firebase Authentication
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
