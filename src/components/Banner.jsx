@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 
 const Banner = () => {
   return (
-    <section className="bg-contain bg-fixed">
+    <section className="bg-contain bg-fixed bg-amber-300">
       <div
         id="banner"
         className="flex min-h-screen bg-white bg-opacity-95 flex-col-reverse md:flex-row items-center justify-around"

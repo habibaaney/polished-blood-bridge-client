@@ -32,10 +32,14 @@ const Header = () => {
       name: "About Us",
       path: "/about",
     },
+    {
+      name: "Donation-request",
+      path: "/donation-request",
+    },
   ];
 
   return (
-    <nav className="overflow-x-clip">
+    <nav className="overflow-x-clip bg-red-100 bg-opacity-30 backdrop-blur-md shadow-md sticky top-0 z-50">
       {user && (
         <p className="text-center text-white bg-black py-2 bg-opacity-90">
           Welcome Mr. {user?.displayName} ❤️🩸. Now You Can Access All Features.
@@ -63,7 +67,7 @@ const Header = () => {
           ))}
           {user?.email ? (
             <>
-              <NavLink to="/donation-request">donation-request</NavLink>
+              {/* <NavLink to="/donation-request">donation-request</NavLink> */}
               <NavLink to="/search">Search</NavLink>
               <NavLink to="/blog-posts">Blog Posts</NavLink>
               <button onClick={logOut} className="cursor-pointer">
@@ -72,7 +76,7 @@ const Header = () => {
             </>
           ) : (
             <>
-              <NavLink to="/donation-request">Donation-request</NavLink>
+              {/* <NavLink to="/donation-request">Donation-request</NavLink> */}
               <NavLink to="/search">Search</NavLink>
               <NavLink to="/blog-posts">Blogs</NavLink>
               <NavLink to="/login">Login</NavLink>
